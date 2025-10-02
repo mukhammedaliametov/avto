@@ -5,3 +5,12 @@
     --font-montserrat: 'Montserrat', sans-serif;
     --color-primary-red: #FF0000;
 }
+
+html, body {
+  min-height: 100%;
+  background: #1A1A1A;
+}
+
+.hero-shadow{
+  box-shadow: 2px 30px 120px 70px #FF0000;
+}

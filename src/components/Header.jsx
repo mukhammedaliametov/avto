@@ -15,7 +15,7 @@ const Header = () => {
     { name: "Контакты", link: "#" },
   ];
   return (
-    <div className="bg-[#1E1E1E] sticky w-full z-999">
+    <div className="bg-[#333333] sticky top-0 w-full z-999">
       <div className="max-w-[1220px] mx-auto px-[16px] xl:px-0 flex items-center justify-between py-[20px]">
         <a href="#">
           <img
