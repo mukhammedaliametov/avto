@@ -64,7 +64,7 @@ const Header = () => {
           {nav ? <IoMdClose /> : <IoMenu />}
         </div>
         <nav
-          className={`fixed flex flex-col text-center gap-[20px] text-white bg-[#1E1E1E] font-montserrat left-0 w-full pt-[30px] h-screen -z-10 transition-all duration-500 ${
+          className={`fixed flex flex-col text-center gap-[20px] text-white bg-[#333333] font-montserrat left-0 w-full pt-[30px] h-screen -z-10 transition-all duration-500 ${
             nav ? "top-[70px]" : "-top-full"
           }`}
         >
