@@ -15,7 +15,7 @@ const Hero = () => {
         <h2 className="text-[32px] md:text-[42px] font-[800]">Превосходство в обслуживании</h2>
         <p className="text-[16px] md:text-[30px] font-[600]">Ваша машина в надежных руках!</p>
         <div className="flex flex-col-reverse md:flex-row items-center mt-[20px]">
-          <div className="flex flex-col items-center justify-center gap-[20px] mt-[130px] md:mt-0">
+          <div className="flex flex-col items-center md:items-start justify-center md:justify-start gap-[20px] mt-[130px] md:mt-0">
             <button
               style={{
                 background: "linear-gradient(180deg, #FF0000 0%, #C70000 100%)",
