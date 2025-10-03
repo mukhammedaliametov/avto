@@ -11,7 +11,7 @@ const Consulting = () => {
         }}
         className="relative max-w-[1220px] h-full md:h-[314px] overflow-hidden mx-auto rounded-[10px] border border-primary-red my-[80px] p-[30px] font-montserrat text-white flex flex-col md:justify-between"
       >
-        <div className="text-center z-10">
+        <div className="text-center md:text-left z-10">
             <h3 className="text-[20px] md:text-[26px] font-[600] text-[#FFB72B]">
           Чтобы узнать точную стоимость работ,{" "}
           <p className="text-white">запишитесь на бесплатную консультацию</p>
