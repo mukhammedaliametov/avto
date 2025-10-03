@@ -9,10 +9,10 @@ const Header = () => {
   const [nav, setNav] = useState();
   const handleClick = () => setNav(!nav);
   const navItems = [
-    { name: "Услуги", link: "#" },
-    { name: "Преимущества", link: "#" },
-    { name: "Наши работы", link: "#" },
-    { name: "Контакты", link: "#" },
+    { name: "Услуги", link: "#services" },
+    { name: "Преимущества", link: "#advantages" },
+    { name: "Наши работы", link: "#ourworks" },
+    { name: "Контакты", link: "#contact" },
   ];
   return (
     <div className="bg-[#333333] sticky top-0 w-full z-999">
@@ -73,6 +73,7 @@ const Header = () => {
               <a
                 key={idx}
                 href={itm.link}
+                onClick={handleClick}
                 className="hover:text-primary-red duration-300 text-[16px]"
               >
                 {itm.name}

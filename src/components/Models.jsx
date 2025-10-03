@@ -17,7 +17,7 @@ const Models = () => {
         <h2 className="text-[22px] md:text-[36px] font-[800] pb-[30px]">
           Список моделей
         </h2>
-        <div className="flex flex-row items-top justify-between overflow-x-scroll xl:overflow-x-visible">
+        <div className="flex flex-row items-top justify-between overflow-x-scroll xl:overflow-x-visible gap-[20px]">
           {modelItems.map((itm, idx) => {
             return (
               <div key={idx} className="flex-shrink-0 w-[285px] border border-primary-red rounded-[20px] flex items-center pr-[20px]">

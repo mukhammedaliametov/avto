@@ -7,7 +7,7 @@ import whatsappIcon from "../assets/whatsapp_icon.svg";
 
 const Contact = () => {
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] xl:px-0 flex flex-col md:flex-row items-center justify-between font-montserrat text-white">
+    <div id="contact" className="max-w-[1220px] mx-auto px-[16px] xl:px-0 flex flex-col md:flex-row items-center justify-between font-montserrat text-white">
       <div className="flex flex-col gap-[10px]">
         <h2 className="text-[22px] md:text-[36px] font-[800]">Контакты</h2>
         <div className="flex flex-col gap-[30px]">

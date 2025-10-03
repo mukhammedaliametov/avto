@@ -21,14 +21,14 @@ const OurWorks = () => {
     },
   ];
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] xl:px-0 font-montserrat pt-[60px] text-white">
+    <div id="ourworks" className="max-w-[1220px] mx-auto px-[16px] xl:px-0 font-montserrat pt-[60px] text-white">
       <h2 className="text-[22px] md:text-[36px] font-[600] pb-[30px]">
         Наши работы
       </h2>
       <div className="flex flex-col md:flex-row items-top gap-[20px]">
         {worksItems.map((itm, idx) => {
           return (
-            <div key={idx} >
+            <div key={idx} className="first:hidden last:hidden md:first:block md:last:block">
                 <div className="relative rounded-b-[10px]">
               <img
                 src={itm.img}

@@ -20,7 +20,7 @@ const Services = () => {
         {name: 'ТОПЛИВНАЯ СИСТЕМА', img: Services8},
     ]
     return (
-        <div className='max-w-[1220px] mx-auto px-[16px] xl:px-0 mb-[40px] font-montserrat text-white'>
+        <div id='services' className='max-w-[1220px] mx-auto px-[16px] xl:px-0 mb-[40px] font-montserrat text-white'>
             <div className='md:pl-[20px] mb-[10px]'>
                 <h2 className='text-[32px] md:text-[42px] font-[600]'>Наши услуги</h2>
             <p>Снизу мы предоставили список наших услуг по разделам:</p>

@@ -22,7 +22,7 @@ const ChooseUs = () => {
     },
   ];
   return (
-    <div className="max-w-[1220px] mx-auto px-[16px] xl:px-0 font-montserrat pt-[60px] text-white">
+    <div id="advantages" className="max-w-[1220px] mx-auto px-[16px] xl:px-0 font-montserrat pt-[60px] text-white">
       <h2 className='text-[22px] md:text-[36px] font-[600] pb-[30px]'>Почему стоит выбрать нас</h2>
       <div className="flex flex-col md:flex-row items-top gap-[20px]">
         {choooseItems.map((itm, idx) => {

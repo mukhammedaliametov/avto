@@ -9,6 +9,7 @@
 html, body {
   min-height: 100%;
   background: #1A1A1A;
+  scroll-behavior: smooth;
 }
 
 .hero-shadow{
